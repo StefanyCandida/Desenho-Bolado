@@ -1,0 +1,246 @@
+
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+  
+}
+body{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content:center ;
+}
+.cabeca{
+    width:50%;
+    height:40%;
+    border-radius:50%;
+    border:8px solid black;
+    background-color: #FDD90F;
+
+
+}
+.cabeca2{
+    width:48%;
+    height:28%;
+    border-radius:47%;
+       background-color: #FDD90F;
+       position:absolute;
+      
+}
+.cabeca3{
+    width:35%;
+    height:15%;
+    background-color: #FDD90F;
+    position:absolute;
+    bottom: 45%;
+    left:15%;
+    transform: rotate(45deg);
+      
+}
+.cabeca4{
+    width:30%;
+    height:42%;
+    background-color: #FDD90F;
+    position:absolute;
+    bottom: 83%;
+    left:75%;
+    transform: rotate(90deg);
+    border-radius: 50%;
+}
+.cabeca5{
+    width:27%;
+    height:37%;
+    background-color:#FDD90F;
+    position:absolute;
+    bottom: 47%;
+    left:-15%;
+    transform: rotate(45deg);
+    border-radius: 50%;
+      
+}
+     
+
+.queixo{
+    width:51%;
+    height:22%;
+    border-radius:40% 40% 40% 40%;
+    border:8px solid black;
+    background-color: #FDD90F;
+    position: absolute;
+    top:50%;
+    left:25%
+}
+
+.maca1{
+    width:30%;
+    height: 30%;
+    background-color: #EA5033;
+    border-radius: 50%;
+    border: solid 5px black;
+    position: relative;
+    top:80%;
+    right:1%;
+}
+.maca2{
+    width:30%;
+    height: 30%;
+    background-color: #EA5033;
+    border-radius: 50%;
+    border: solid 5px black;
+    position: relative;
+    top:50%;
+    left:73%;
+}
+.boca1{
+    width:2%;
+    height: 20%;
+    background-color: black;
+    position: relative;
+    left:43%;
+    top:17%;
+    transform: rotate(45deg);
+}
+.boca2{
+    width:2%;
+    height: 20%;
+    background-color: black;
+    position: relative;
+    left:50%;
+    bottom: 3%;
+    transform: rotate(-45deg);
+}
+.nariz{
+    width:7%;
+    height: 7%;
+    background-color: black;
+    position: relative;
+    bottom:37%;
+    left:44%;
+    border-radius: 90% 15% 30% 15%;
+    transform: rotate(45deg);
+}
+.olho1{
+    width:25%;
+        height: 25%;
+        background-color: #000;
+        border-radius: 50%;
+        position: relative;
+        bottom:60%;
+        left:8%;
+}
+.olho2{
+    width:25%;
+        height: 25%;
+        background-color: #000;
+        border-radius: 50%;
+        position: relative;
+        bottom:84%;
+        left:65%;
+}
+.pupila1{
+    width:40%;
+    height:40%;
+    background-color: #fff;
+    position: relative;
+    border-radius: 50%;
+    left:40%;
+    top:18%;
+}
+.pupila2{
+    width:40%;
+    height:40%;
+    background-color: #fff;
+    position: relative;
+    border-radius: 50%;
+    left:20%;
+    top:18%;
+}
+.sombra1{
+    width:5%;
+    height: 45%;
+    background-color: black;
+    position: absolute;
+    left:70%;
+    bottom:40%;
+    border-radius: 30%;
+    transform: rotate(45deg);
+}
+.sombra2{
+    width:5%;
+    height: 45%;
+    background-color: black;
+    position: absolute;
+    left:23%;
+    bottom:27%;
+    border-radius: 30%;
+    transform: rotate(130deg);
+}
+.orelha-1{
+    width:30%;
+    height:20%;
+    background-color: #FDD90F;
+    position: absolute;
+    border-radius: 90% 0% 90% 00%;
+    left:55%;
+    top:24%;
+    z-index: -2;
+    transform: rotate(165deg);
+    border: solid 8px black;
+}
+.orelha-2{
+    width:30%;
+    height:20%;
+    background-color: #FDD90F;
+    position: absolute;
+    border-radius: 90% 0% 90% 00%;
+    left:5%;
+    top:30%;
+    z-index: -2;
+    transform: rotate(85deg);
+    border: solid 8px black;
+}
+.a{
+    border-left: 80px solid rgb(23, 22, 22);
+    z-index: -1;
+}
+.b{
+    border-bottom: 80px solid #000;
+    z-index: -1;
+}
+.corpo{
+  
+        width:110%;
+        height:152%;
+        border-radius:50% 50% 30% 30%;
+        border:8px solid black;
+        background-color: #FDD90F;
+        position: absolute;
+        top:95%;
+        z-index: -2;
+    
+}
+.braco1{
+    width:20%;
+    height:72%;
+    border-radius:50% ;
+    border:8px solid black;
+    background-color: #FDD90F;
+    position: absolute;
+    transform: rotate(90deg);
+    top:110%;
+    z-index: -12;
+}
+.braco2{
+    width:20%;
+    height:172%;
+    border-radius:50% ;
+    border:8px solid black;
+    background-color: #FDD90F;
+    position: absolute;
+    transform: rotate(90deg);
+    top:50%;
+    z-index: -12;
+   left:65%;
+ 
+}
